@@ -3,22 +3,18 @@
 
 import PackageDescription
 
+import PackageDescription
+
 let package = Package(
     name: "CoreUtils",
+    platforms: [
+        .iOS(.v13)
+    ],
     products: [
-        // Products define the executables and libraries a package produces, making them visible to other packages.
-        .library(
-            name: "CoreUtils",
-            targets: ["CoreUtils"]),
+        .library(name: "CoreUtils", targets: ["CoreUtils"]),
     ],
     targets: [
-        // Targets are the basic building blocks of a package, defining a module or a test suite.
-        // Targets can depend on other targets in this package and products from dependencies.
-        .target(
-            name: "CoreUtils"),
-        .testTarget(
-            name: "CoreUtilsTests",
-            dependencies: ["CoreUtils"]
-        ),
+        .target(name: "CoreUtils"),
+        .testTarget(name: "CoreUtilsTests", dependencies: ["CoreUtils"]),
     ]
 )
