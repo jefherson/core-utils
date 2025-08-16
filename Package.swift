@@ -4,24 +4,24 @@
 import PackageDescription
 
 let package = Package(
-    name: "CoreUtils",
+    name: "Core-Utils",
     platforms: [
         .iOS(.v13)
     ],
     products: [
         .library(
-            name: "CoreUtils",
-            targets: ["CoreUtils"]
+            name: "Core-Utils",
+            targets: ["Core-Utils"]
         )
     ],
     dependencies: [],
     targets: [
         .target(
-            name: "CoreUtils"
+            name: "Core-Utils"
         ),
         .testTarget(
             name: "CoreUtilsTests",
-            dependencies: ["CoreUtils"]
+            dependencies: ["Core-Utils"]
         )
     ]
 )

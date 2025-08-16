@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		6D624EF62E4EA9EE00C5F408 /* CoreUtils in Frameworks */ = {isa = PBXBuildFile; productRef = 6D624EF52E4EA9EE00C5F408 /* CoreUtils */; };
+		6D74B4342E50F075005EE6C6 /* Core-Utils in Frameworks */ = {isa = PBXBuildFile; productRef = 6D74B4332E50F075005EE6C6 /* Core-Utils */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6D624EF62E4EA9EE00C5F408 /* CoreUtils in Frameworks */,
+				6D74B4342E50F075005EE6C6 /* Core-Utils in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,6 +81,7 @@
 			name = CoreUtilsMiniApp;
 			packageProductDependencies = (
 				6D624EF52E4EA9EE00C5F408 /* CoreUtils */,
+				6D74B4332E50F075005EE6C6 /* Core-Utils */,
 			);
 			productName = CoreUtilsMiniApp;
 			productReference = 6DD4E51F2E4DA392006F6071 /* CoreUtilsMiniApp.app */;
@@ -109,7 +112,7 @@
 			mainGroup = 6DD4E5162E4DA392006F6071;
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
-				6D624EF42E4EA9EE00C5F408 /* XCLocalSwiftPackageReference "../../CoreUtils" */,
+				6D74B4322E50F075005EE6C6 /* XCLocalSwiftPackageReference "../../Core-Utils" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 6DD4E5202E4DA392006F6071 /* Products */;
@@ -343,9 +346,9 @@
 /* End XCConfigurationList section */
 
 /* Begin XCLocalSwiftPackageReference section */
-		6D624EF42E4EA9EE00C5F408 /* XCLocalSwiftPackageReference "../../CoreUtils" */ = {
+		6D74B4322E50F075005EE6C6 /* XCLocalSwiftPackageReference "../../Core-Utils" */ = {
 			isa = XCLocalSwiftPackageReference;
-			relativePath = ../../CoreUtils;
+			relativePath = "../../Core-Utils";
 		};
 /* End XCLocalSwiftPackageReference section */
 
@@ -353,6 +356,10 @@
 		6D624EF52E4EA9EE00C5F408 /* CoreUtils */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = CoreUtils;
+		};
+		6D74B4332E50F075005EE6C6 /* Core-Utils */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = "Core-Utils";
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
